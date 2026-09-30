@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diagnostico Digital | Thais Azevedo</title>
-<meta name="description" content="Briefing de diagnostico digital por Thais Azevedo. Marketing, conteudo e posicionamento digital.">
+<title>Diagnóstico Digital | Thais Azevedo</title>
+<meta name="description" content="Briefing de diagnóstico digital por Thais Azevedo. Marketing, conteúdo e posicionamento digital.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
@@ -203,10 +203,10 @@ body {
 /* Hero decorative arcs */
 .hero__arc-1 {
   position: absolute;
-  right: -80px;
-  top: 10%;
-  width: 400px;
-  height: 400px;
+  right: -120px;
+  top: -10%;
+  width: 520px;
+  height: 520px;
   border-radius: 50%;
   border: 1.5px solid var(--lilas-30);
   z-index: 1;
@@ -214,20 +214,21 @@ body {
 
 .hero__arc-2 {
   position: absolute;
-  right: -40px;
-  top: 20%;
-  width: 350px;
-  height: 350px;
+  right: -60px;
+  top: 5%;
+  width: 420px;
+  height: 420px;
   border-radius: 50%;
-  border: 1.5px solid rgba(255,103,92,0.2);
+  border: 1px solid rgba(165,108,255,0.15);
   z-index: 1;
 }
 
 .hero__triangle {
   position: absolute;
-  right: 60px;
-  top: 45%;
+  right: 80px;
+  top: 38%;
   z-index: 1;
+  opacity: 0.85;
 }
 
 /* Hero info cards */
@@ -953,9 +954,9 @@ body {
 
   .hero__title { font-size: 48px; }
 
-  .hero__arc-1 { width: 600px; height: 600px; right: -100px; }
-  .hero__arc-2 { width: 500px; height: 500px; right: -50px; }
-  .hero__triangle { right: 140px; }
+  .hero__arc-1 { width: 680px; height: 680px; right: -140px; top: -15%; }
+  .hero__arc-2 { width: 560px; height: 560px; right: -80px; top: 0%; }
+  .hero__triangle { right: 160px; top: 35%; }
 
   .hero__info { gap: 32px; margin-top: 56px; }
 
@@ -1004,21 +1005,21 @@ body {
   <header class="hero__header">
     <div class="hero__logo">
       <img src="assets/logo-light.png" alt="Thais Azevedo" class="hero__logo-img" width="240" height="48">
-      <div class="hero__logo-desc">Marketing, conteudo e posicionamento digital</div>
+      <div class="hero__logo-desc">Marketing, conteúdo e posicionamento digital</div>
     </div>
   </header>
 
   <div class="hero__content">
     <h1 class="hero__title">
-      Sua personalidade e seus valores como
-      <span>diferencial do seu negocio.</span>
+      Transformando sua personalidade, valores e autenticidade no
+      <span>diferencial do seu negócio.</span>
     </h1>
     <p class="hero__subtitle">
-      Antes de montar a proposta ideal, preciso conhecer voce e o seu negocio.
-      Nao existe resposta certa ou errada. Quanto mais detalhes, melhor a estrategia.
+      Antes de montar a proposta ideal, preciso conhecer você e o seu negócio.
+      Não existe resposta certa ou errada. Quanto mais detalhes, melhor a estratégia.
     </p>
-    <button class="hero__cta" onclick="startForm()" aria-label="Comecar o briefing">
-      Comecar briefing
+    <button class="hero__cta" onclick="startForm()" aria-label="Começar o briefing">
+      Começar briefing
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </button>
 
@@ -1028,8 +1029,8 @@ body {
           <svg viewBox="0 0 24 24" fill="none" stroke="#A56CFF" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
         </div>
         <div class="hero__info-text">
-          <h3>8 blocos rapidos</h3>
-          <p>Perguntas objetivas sobre o negocio, presenca digital, publico e objetivos.</p>
+          <h3>8 blocos rápidos</h3>
+          <p>Perguntas objetivas sobre o negócio, presença digital, público e objetivos.</p>
         </div>
       </div>
       <div class="hero__info-card">
@@ -1047,7 +1048,7 @@ body {
         </div>
         <div class="hero__info-text">
           <h3>Proposta personalizada</h3>
-          <p>Com base nas respostas, sera montado um diagnostico completo.</p>
+          <p>Com base nas respostas, será montado um diagnóstico completo.</p>
         </div>
       </div>
     </div>
@@ -1061,7 +1062,7 @@ body {
     <!-- Saved progress banner -->
     <div class="saved-banner" id="savedBanner">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/></svg>
-      <span class="saved-banner-text">Voce tem respostas salvas de uma sessao anterior.</span>
+      <span class="saved-banner-text">Você tem respostas salvas de uma sessão anterior.</span>
       <div class="saved-banner-actions">
         <button class="saved-banner-btn saved-banner-resume" onclick="resumeProgress()">Continuar</button>
         <button class="saved-banner-btn saved-banner-clear" onclick="clearProgress()">Limpar</button>
@@ -1081,12 +1082,12 @@ body {
 
     <form id="briefingForm" novalidate>
 
-      <!-- ====== STEP 1: Sobre voce e seu negocio ====== -->
+      <!-- ====== STEP 1: Sobre você e seu negócio ====== -->
       <div class="step active" data-step="1">
         <div class="step__header">
           <div class="step__number">Etapa 1 de 8</div>
-          <h2 class="step__title">Sobre voce e seu negocio</h2>
-          <p class="step__desc">Informacoes basicas sobre voce e seu empreendimento.</p>
+          <h2 class="step__title">Sobre você e seu negócio</h2>
+          <p class="step__desc">Informações básicas sobre você e seu empreendimento.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
@@ -1097,38 +1098,38 @@ body {
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="negocio">Nome do seu negocio ou marca</label>
-          <p class="field-hint">Se ainda nao tem, pode deixar em branco.</p>
-          <input class="field-input" type="text" id="negocio" name="negocio" placeholder="Clinica Sorriso, Studio Ana">
+          <label class="field-label" for="negocio">Nome do seu negócio ou marca</label>
+          <p class="field-hint">Se ainda não tem, pode deixar em branco.</p>
+          <input class="field-input" type="text" id="negocio" name="negocio" placeholder="Clínica Sorriso, Studio Ana">
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="area">Area de atuacao <span class="required">*</span></label>
+          <label class="field-label" for="area">Área de atuação <span class="required">*</span></label>
           <select class="field-select" id="area" name="area" required>
-            <option value="" disabled selected>Selecione sua area</option>
-            <option value="Saude e Estetica">Saude e Estetica</option>
+            <option value="" disabled selected>Selecione sua área</option>
+            <option value="Saúde e Estética">Saúde e Estética</option>
             <option value="Odontologia">Odontologia</option>
             <option value="Gastronomia">Gastronomia</option>
             <option value="Moda e Beleza">Moda e Beleza</option>
-            <option value="Educacao">Educacao</option>
-            <option value="Servicos Profissionais">Servicos Profissionais</option>
-            <option value="Varejo / Comercio">Varejo / Comercio</option>
+            <option value="Educação">Educação</option>
+            <option value="Serviços Profissionais">Serviços Profissionais</option>
+            <option value="Varejo / Comércio">Varejo / Comércio</option>
             <option value="Fitness e Bem-estar">Fitness e Bem-estar</option>
             <option value="Tecnologia">Tecnologia</option>
             <option value="Outro">Outro</option>
           </select>
-          <div class="field-error-msg">Por favor, selecione uma area.</div>
+          <div class="field-error-msg">Por favor, selecione uma área.</div>
           <div class="conditional-field" id="areaOutro">
-            <label class="field-label" for="areaOutroText">Qual area?</label>
-            <input class="field-input" type="text" id="areaOutroText" name="area_outro" placeholder="Descreva sua area">
+            <label class="field-label" for="areaOutroText">Qual área?</label>
+            <input class="field-input" type="text" id="areaOutroText" name="area_outro" placeholder="Descreva sua área">
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="descricao">Descreva brevemente o que voce oferece <span class="required">*</span></label>
-          <p class="field-hint">Seus principais servicos ou produtos.</p>
-          <textarea class="field-textarea" id="descricao" name="descricao" placeholder="Atendo consultas de harmonizacao facial e corporal, com foco em procedimentos minimamente invasivos..." required></textarea>
-          <div class="field-error-msg">Por favor, descreva seus servicos.</div>
+          <label class="field-label" for="descricao">Descreva brevemente o que você oferece <span class="required">*</span></label>
+          <p class="field-hint">Seus principais serviços ou produtos.</p>
+          <textarea class="field-textarea" id="descricao" name="descricao" placeholder="Atendo consultas de harmonização facial e corporal, com foco em procedimentos minimamente invasivos..." required></textarea>
+          <div class="field-error-msg">Por favor, descreva seus serviços.</div>
         </div>
 
         <div class="field-group">
@@ -1140,13 +1141,13 @@ body {
             <option value="3 a 5 anos">3 a 5 anos</option>
             <option value="5 a 10 anos">5 a 10 anos</option>
             <option value="Mais de 10 anos">Mais de 10 anos</option>
-            <option value="Estou comecando agora">Estou comecando agora</option>
+            <option value="Estou começando agora">Estou começando agora</option>
           </select>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="cidade">Cidade / Regiao</label>
-          <input class="field-input" type="text" id="cidade" name="cidade" placeholder="Muriae, MG">
+          <label class="field-label" for="cidade">Cidade / Região</label>
+          <input class="field-input" type="text" id="cidade" name="cidade" placeholder="Muriaé, MG">
         </div>
 
         <div class="field-group">
@@ -1166,41 +1167,41 @@ body {
         </div>
       </div>
 
-      <!-- ====== STEP 2: Formalizacao e estrutura ====== -->
+      <!-- ====== STEP 2: Formalização e estrutura ====== -->
       <div class="step" data-step="2">
         <div class="step__header">
           <div class="step__number">Etapa 2 de 8</div>
-          <h2 class="step__title">Formalizacao e estrutura</h2>
-          <p class="step__desc">Informacoes sobre registro formal e formacao profissional.</p>
+          <h2 class="step__title">Formalização e estrutura</h2>
+          <p class="step__desc">Informações sobre registro formal e formação profissional.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Voce possui CNPJ ou MEI?</label>
+          <label class="field-label">Você possui CNPJ ou MEI?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="cnpj" value="Sim, tenho CNPJ"> Sim, tenho CNPJ</label>
             <label class="radio-option"><input type="radio" name="cnpj" value="Sim, sou MEI"> Sim, sou MEI</label>
             <label class="radio-option"><input type="radio" name="cnpj" value="Estou em processo de abertura"> Estou em processo de abertura</label>
-            <label class="radio-option"><input type="radio" name="cnpj" value="Nao possuo"> Nao possuo</label>
+            <label class="radio-option"><input type="radio" name="cnpj" value="Não possuo"> Não possuo</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="razao">Razao social ou nome fantasia registrado</label>
+          <label class="field-label" for="razao">Razão social ou nome fantasia registrado</label>
           <p class="field-hint">Se possui CNPJ ou MEI, informe o nome registrado.</p>
-          <input class="field-input" type="text" id="razao" name="razao_social" placeholder="Maria Silva Estetica LTDA">
+          <input class="field-input" type="text" id="razao" name="razao_social" placeholder="Maria Silva Estética LTDA">
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="formacao">Formacao academica principal</label>
-          <p class="field-hint">Sua graduacao ou formacao tecnica na area de atuacao.</p>
-          <input class="field-input" type="text" id="formacao" name="formacao" placeholder="Biomedicina, Odontologia, Administracao...">
+          <label class="field-label" for="formacao">Formação acadêmica principal</label>
+          <p class="field-hint">Sua graduação ou formação técnica na área de atuação.</p>
+          <input class="field-input" type="text" id="formacao" name="formacao" placeholder="Biomedicina, Odontologia, Administração...">
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="cursos">Cursos, especializacoes ou certificacoes relevantes</label>
-          <p class="field-hint">Liste os que voce considera mais importantes para o seu posicionamento.</p>
-          <textarea class="field-textarea" id="cursos" name="cursos" placeholder="Pos-graduacao em Harmonizacao Orofacial, Curso de Toxina Botulinica, MBA em Gestao..."></textarea>
+          <label class="field-label" for="cursos">Cursos, especializações ou certificações relevantes</label>
+          <p class="field-hint">Liste os que você considera mais importantes para o seu posicionamento.</p>
+          <textarea class="field-textarea" id="cursos" name="cursos" placeholder="Pós-graduação em Harmonização Orofacial, Curso de Toxina Botulínica, MBA em Gestão..."></textarea>
         </div>
 
         <div class="step-nav">
@@ -1215,17 +1216,17 @@ body {
         </div>
       </div>
 
-      <!-- ====== STEP 3: Presenca digital atual ====== -->
+      <!-- ====== STEP 3: Presença digital atual ====== -->
       <div class="step" data-step="3">
         <div class="step__header">
           <div class="step__number">Etapa 3 de 8</div>
-          <h2 class="step__title">Presenca digital atual</h2>
-          <p class="step__desc">Avaliacao do cenario atual de redes sociais, site e ferramentas.</p>
+          <h2 class="step__title">Presença digital atual</h2>
+          <p class="step__desc">Avaliação do cenário atual de redes sociais, site e ferramentas.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Quais redes sociais voce utiliza?</label>
+          <label class="field-label">Quais redes sociais você utiliza?</label>
           <div class="checkbox-group grid-2">
             <label class="checkbox-option"><input type="checkbox" name="redes" value="Instagram"> Instagram</label>
             <label class="checkbox-option"><input type="checkbox" name="redes" value="Facebook"> Facebook</label>
@@ -1243,21 +1244,21 @@ body {
         </div>
 
         <div class="field-group">
-          <label class="field-label">Com que frequencia voce publica hoje?</label>
+          <label class="field-label">Com que frequência você publica hoje?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="frequencia" value="Todos os dias"> Todos os dias</label>
             <label class="radio-option"><input type="radio" name="frequencia" value="Algumas vezes por semana"> Algumas vezes por semana</label>
-            <label class="radio-option"><input type="radio" name="frequencia" value="Algumas vezes por mes"> Algumas vezes por mes</label>
+            <label class="radio-option"><input type="radio" name="frequencia" value="Algumas vezes por mês"> Algumas vezes por mês</label>
             <label class="radio-option"><input type="radio" name="frequencia" value="Raramente ou nunca"> Raramente ou nunca</label>
-            <label class="radio-option"><input type="radio" name="frequencia" value="Nao tenho redes sociais profissionais"> Nao tenho redes sociais profissionais</label>
+            <label class="radio-option"><input type="radio" name="frequencia" value="Não tenho redes sociais profissionais"> Não tenho redes sociais profissionais</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Voce possui site ou landing page?</label>
+          <label class="field-label">Você possui site ou landing page?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="site" value="Sim"> Sim (informe o link abaixo)</label>
-            <label class="radio-option"><input type="radio" name="site" value="Nao"> Nao</label>
+            <label class="radio-option"><input type="radio" name="site" value="Nao"> Não</label>
           </div>
           <div class="conditional-field" id="siteLink">
             <label class="field-label" for="siteLinkUrl">Link do site</label>
@@ -1266,12 +1267,12 @@ body {
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="google">Google Meu Negocio</label>
+          <label class="field-label" for="google">Google Meu Negócio</label>
           <select class="field-select" id="google" name="google_negocio">
             <option value="" disabled selected>Selecione</option>
             <option value="Sim, configurado">Sim, configurado</option>
-            <option value="Ja ouvi falar, mas nao tenho">Ja ouvi falar, mas nao tenho</option>
-            <option value="Nao sei o que e">Nao sei o que e</option>
+            <option value="Já ouvi falar, mas não tenho">Já ouvi falar, mas não tenho</option>
+            <option value="Não sei o que é">Não sei o que é</option>
           </select>
         </div>
 
@@ -1280,16 +1281,16 @@ body {
           <select class="field-select" id="whatsapp_business" name="whatsapp_business">
             <option value="" disabled selected>Selecione</option>
             <option value="Sim, uso profissionalmente">Sim, uso profissionalmente</option>
-            <option value="Uso o WhatsApp pessoal para o negocio">Uso o WhatsApp pessoal para o negocio</option>
-            <option value="Nao uso WhatsApp para o negocio">Nao uso WhatsApp para o negocio</option>
+            <option value="Uso o WhatsApp pessoal para o negócio">Uso o WhatsApp pessoal para o negócio</option>
+            <option value="Não uso WhatsApp para o negócio">Não uso WhatsApp para o negócio</option>
           </select>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Ja investiu em trafego pago (anuncios)?</label>
+          <label class="field-label">Já investiu em tráfego pago (anuncios)?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="trafego" value="Sim, com bons resultados"> Sim, com bons resultados</label>
-            <label class="radio-option"><input type="radio" name="trafego" value="Sim, mas nao tive resultados claros"> Sim, mas nao tive resultados claros</label>
+            <label class="radio-option"><input type="radio" name="trafego" value="Sim, mas não tive resultados claros"> Sim, mas não tive resultados claros</label>
             <label class="radio-option"><input type="radio" name="trafego" value="Nunca investi"> Nunca investi</label>
           </div>
         </div>
@@ -1306,31 +1307,31 @@ body {
         </div>
       </div>
 
-      <!-- ====== STEP 4: Seu publico e mercado ====== -->
+      <!-- ====== STEP 4: Seu público e mercado ====== -->
       <div class="step" data-step="4">
         <div class="step__header">
           <div class="step__number">Etapa 4 de 8</div>
-          <h2 class="step__title">Seu publico e mercado</h2>
-          <p class="step__desc">Informacoes sobre o cliente ideal, concorrencia e diferenciais.</p>
+          <h2 class="step__title">Seu público e mercado</h2>
+          <p class="step__desc">Informações sobre o cliente ideal, concorrência e diferenciais.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="clienteIdeal">Quem e o seu cliente ideal? <span class="required">*</span></label>
-          <p class="field-hint">Descreva o perfil: faixa etaria, genero, o que essa pessoa busca, quais sao as dores e necessidades dela.</p>
-          <textarea class="field-textarea" id="clienteIdeal" name="cliente_ideal" placeholder="Mulheres de 25 a 45 anos que buscam procedimentos esteticos minimamente invasivos, querem resultados naturais e valorizam seguranca..." required></textarea>
+          <label class="field-label" for="clienteIdeal">Quem é o seu cliente ideal? <span class="required">*</span></label>
+          <p class="field-hint">Descreva o perfil: faixa etária, gênero, o que essa pessoa busca, quais são as dores e necessidades dela.</p>
+          <textarea class="field-textarea" id="clienteIdeal" name="cliente_ideal" placeholder="Mulheres de 25 a 45 anos que buscam procedimentos estéticos minimamente invasivos, querem resultados naturais e valorizam segurança..." required></textarea>
           <div class="field-error-msg">Por favor, descreva seu cliente ideal.</div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="concorrentes">Quais sao seus principais concorrentes?</label>
-          <p class="field-hint">Pode citar nomes, perfis de Instagram ou empresas que atuam na mesma regiao e nicho.</p>
-          <textarea class="field-textarea" id="concorrentes" name="concorrentes" placeholder="Clinica X (@clinicax), Dr. Fulano (@dr.fulano), Studio Y..."></textarea>
+          <label class="field-label" for="concorrentes">Quais são seus principais concorrentes?</label>
+          <p class="field-hint">Pode citar nomes, perfis de Instagram ou empresas que atuam na mesma região e nicho.</p>
+          <textarea class="field-textarea" id="concorrentes" name="concorrentes" placeholder="Clínica X (@clinicax), Dr. Fulano (@dr.fulano), Studio Y..."></textarea>
         </div>
 
         <div class="field-group">
           <label class="field-label" for="diferenciais">O que diferencia o seu trabalho dos concorrentes?</label>
-          <textarea class="field-textarea" id="diferenciais" name="diferenciais" placeholder="Atendimento humanizado, formacao especifica, tecnica exclusiva, localizacao, experiencia..."></textarea>
+          <textarea class="field-textarea" id="diferenciais" name="diferenciais" placeholder="Atendimento humanizado, formação específica, técnica exclusiva, localização, experiência..."></textarea>
         </div>
 
         <div class="step-nav">
@@ -1345,40 +1346,40 @@ body {
         </div>
       </div>
 
-      <!-- ====== STEP 5: Identidade visual e referencias ====== -->
+      <!-- ====== STEP 5: Identidade visual e referências ====== -->
       <div class="step" data-step="5">
         <div class="step__header">
           <div class="step__number">Etapa 5 de 8</div>
-          <h2 class="step__title">Identidade visual e referencias</h2>
-          <p class="step__desc">Informacoes sobre logotipo, cores e referencias visuais.</p>
+          <h2 class="step__title">Identidade visual e referências</h2>
+          <p class="step__desc">Informações sobre logotipo, cores e referências visuais.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Voce ja possui um logotipo?</label>
+          <label class="field-label">Você já possui um logotipo?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="logotipo" value="Sim, tenho logotipo profissional"> Sim, tenho logotipo profissional</label>
             <label class="radio-option"><input type="radio" name="logotipo" value="Tenho algo simples / improvisado"> Tenho algo simples / improvisado</label>
-            <label class="radio-option"><input type="radio" name="logotipo" value="Nao tenho"> Nao tenho</label>
-            <label class="radio-option"><input type="radio" name="logotipo" value="Esta em desenvolvimento"> Esta em desenvolvimento</label>
+            <label class="radio-option"><input type="radio" name="logotipo" value="Não tenho"> Não tenho</label>
+            <label class="radio-option"><input type="radio" name="logotipo" value="Está em desenvolvimento"> Está em desenvolvimento</label>
           </div>
         </div>
 
         <div class="field-group">
           <label class="field-label" for="cores">Possui cores definidas para a marca?</label>
-          <p class="field-hint">Se sim, descreva ou informe os codigos/nomes das cores.</p>
+          <p class="field-hint">Se sim, descreva ou informe os códigos/nomes das cores.</p>
           <input class="field-input" type="text" id="cores" name="cores_marca" placeholder="Azul marinho, dourado e branco / #1A3A5C">
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="referencias">Perfis ou marcas que voce admira visualmente</label>
-          <p class="field-hint">Links de perfis que transmitem a imagem que voce deseja para o seu negocio.</p>
+          <label class="field-label" for="referencias">Perfis ou marcas que você admira visualmente</label>
+          <p class="field-hint">Links de perfis que transmitem a imagem que você deseja para o seu negócio.</p>
           <textarea class="field-textarea" id="referencias" name="referencias_visuais" placeholder="@clinicaexemplo (gosto do visual limpo), @studioY (gosto da paleta de cores)..."></textarea>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="sensacao">Que sensacao voce quer que o cliente tenha ao ver o seu perfil?</label>
-          <textarea class="field-textarea" id="sensacao" name="sensacao" placeholder="Confianca, profissionalismo, modernidade, acolhimento..."></textarea>
+          <label class="field-label" for="sensacao">Que sensação você quer que o cliente tenha ao ver o seu perfil?</label>
+          <textarea class="field-textarea" id="sensacao" name="sensacao" placeholder="Confiança, profissionalismo, modernidade, acolhimento..."></textarea>
         </div>
 
         <div class="step-nav">
@@ -1398,43 +1399,43 @@ body {
         <div class="step__header">
           <div class="step__number">Etapa 6 de 8</div>
           <h2 class="step__title">Objetivos e expectativas</h2>
-          <p class="step__desc">O que motivou a busca por marketing digital e o que voce espera.</p>
+          <p class="step__desc">O que motivou a busca por marketing digital e o que você espera.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="motivacao">Por que voce esta buscando esse servico agora? <span class="required">*</span></label>
+          <label class="field-label" for="motivacao">Por que você está buscando esse serviço agora? <span class="required">*</span></label>
           <p class="field-hint">O que motivou a busca por um profissional de marketing digital neste momento?</p>
-          <textarea class="field-textarea" id="motivacao" name="motivacao" placeholder="Estou abrindo meu consultorio e preciso de presenca digital profissional desde o inicio..." required></textarea>
-          <div class="field-error-msg">Por favor, conte o que motivou voce.</div>
+          <textarea class="field-textarea" id="motivacao" name="motivacao" placeholder="Estou abrindo meu consultório e preciso de presença digital profissional desde o início..." required></textarea>
+          <div class="field-error-msg">Por favor, conte o que motivou você.</div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">O que voce espera conquistar? <span class="required">*</span></label>
+          <label class="field-label">O que você espera conquistar? <span class="required">*</span></label>
           <p class="field-hint">Marque tudo o que se aplica.</p>
           <div class="checkbox-group grid-2">
             <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Atrair novos clientes"> Atrair novos clientes</label>
             <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Fortalecer autoridade"> Fortalecer autoridade</label>
-            <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Divulgar servicos"> Divulgar servicos</label>
-            <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Conteudo educativo"> Conteudo educativo</label>
+            <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Divulgar serviços"> Divulgar serviços</label>
+            <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Conteúdo educativo"> Conteúdo educativo</label>
             <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Profissionalizar imagem"> Profissionalizar imagem</label>
             <label class="checkbox-option"><input type="checkbox" name="objetivos" value="Aumentar seguidores"> Aumentar seguidores</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Em quanto tempo voce espera ver resultados?</label>
+          <label class="field-label">Em quanto tempo você espera ver resultados?</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="prazo" value="1 a 3 meses"> 1 a 3 meses</label>
             <label class="radio-option"><input type="radio" name="prazo" value="3 a 6 meses"> 3 a 6 meses</label>
             <label class="radio-option"><input type="radio" name="prazo" value="6 meses a 1 ano"> 6 meses a 1 ano</label>
-            <label class="radio-option"><input type="radio" name="prazo" value="Nao tenho pressa, quero fazer bem feito"> Nao tenho pressa, quero fazer bem feito</label>
+            <label class="radio-option"><input type="radio" name="prazo" value="Não tenho pressa, quero fazer bem feito"> Não tenho pressa, quero fazer bem feito</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="experiencia">Ja trabalhou com social media ou agencia antes?</label>
-          <textarea class="field-textarea" id="experiencia" name="experiencia_anterior" placeholder="Se sim, conte como foi a experiencia. O que funcionou e o que nao funcionou?"></textarea>
+          <label class="field-label" for="experiencia">Já trabalhou com social media ou agência antes?</label>
+          <textarea class="field-textarea" id="experiencia" name="experiencia_anterior" placeholder="Se sim, conte como foi a experiência. O que funcionou e o que não funcionou?"></textarea>
         </div>
 
         <div class="step-nav">
@@ -1454,23 +1455,23 @@ body {
         <div class="step__header">
           <div class="step__number">Etapa 7 de 8</div>
           <h2 class="step__title">Investimento e disponibilidade</h2>
-          <p class="step__desc">Orcamento, disponibilidade para reunioes e gravacoes, e contato.</p>
+          <p class="step__desc">Orçamento, disponibilidade para reuniões e gravações, e contato.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
           <label class="field-label">Qual a sua faixa de investimento mensal para marketing digital?</label>
           <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="investimento" value="Ate R$ 500"> Ate R$ 500</label>
+            <label class="radio-option"><input type="radio" name="investimento" value="Até R$ 500"> Até R$ 500</label>
             <label class="radio-option"><input type="radio" name="investimento" value="R$ 500 a R$ 1.500"> R$ 500 a R$ 1.500</label>
             <label class="radio-option"><input type="radio" name="investimento" value="R$ 1.500 a R$ 3.000"> R$ 1.500 a R$ 3.000</label>
             <label class="radio-option"><input type="radio" name="investimento" value="Acima de R$ 3.000"> Acima de R$ 3.000</label>
-            <label class="radio-option"><input type="radio" name="investimento" value="Prefiro receber opcoes e decidir depois"> Prefiro receber opcoes e decidir depois</label>
+            <label class="radio-option"><input type="radio" name="investimento" value="Prefiro receber opções e decidir depois"> Prefiro receber opções e decidir depois</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Disponibilidade para reunioes de alinhamento</label>
+          <label class="field-label">Disponibilidade para reuniões de alinhamento</label>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="reunioes" value="Semanal"> Semanal</label>
             <label class="radio-option"><input type="radio" name="reunioes" value="Quinzenal"> Quinzenal</label>
@@ -1479,19 +1480,19 @@ body {
         </div>
 
         <div class="field-group">
-          <label class="field-label">Disponibilidade para gravacao de conteudo</label>
-          <p class="field-hint">Fotos e videos com voce, sua equipe ou seu ambiente de trabalho.</p>
+          <label class="field-label">Disponibilidade para gravação de conteúdo</label>
+          <p class="field-hint">Fotos e vídeos com você, sua equipe ou seu ambiente de trabalho.</p>
           <div class="radio-group">
             <label class="radio-option"><input type="radio" name="gravacao" value="Tenho disponibilidade total"> Tenho disponibilidade total</label>
-            <label class="radio-option"><input type="radio" name="gravacao" value="Posso agendar com antecedencia"> Posso agendar com antecedencia</label>
+            <label class="radio-option"><input type="radio" name="gravacao" value="Posso agendar com antecedência"> Posso agendar com antecedência</label>
             <label class="radio-option"><input type="radio" name="gravacao" value="Tenho pouca disponibilidade"> Tenho pouca disponibilidade</label>
-            <label class="radio-option"><input type="radio" name="gravacao" value="Prefiro nao aparecer em conteudos"> Prefiro nao aparecer em conteudos</label>
+            <label class="radio-option"><input type="radio" name="gravacao" value="Prefiro não aparecer em conteúdos"> Prefiro não aparecer em conteúdos</label>
           </div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="horario">Melhor horario para contato</label>
-          <input class="field-input" type="text" id="horario" name="horario_contato" placeholder="De manha, antes das 10h / A noite, apos 19h">
+          <label class="field-label" for="horario">Melhor horário para contato</label>
+          <input class="field-input" type="text" id="horario" name="horario_contato" placeholder="De manhã, antes das 10h / À noite, após 19h">
         </div>
 
         <div class="field-group">
@@ -1516,35 +1517,35 @@ body {
         </div>
       </div>
 
-      <!-- ====== STEP 8: Finalizacao ====== -->
+      <!-- ====== STEP 8: Finalização ====== -->
       <div class="step" data-step="8">
         <div class="step__header">
           <div class="step__number">Etapa 8 de 8</div>
-          <h2 class="step__title">Finalizacao</h2>
-          <p class="step__desc">Espaco para duvidas, observacoes, arquivos e como nos conheceu.</p>
+          <h2 class="step__title">Finalização</h2>
+          <p class="step__desc">Espaço para dúvidas, observações, arquivos e como nos conheceu.</p>
           <div class="section-deco"><span class="section-deco-line"></span><span class="section-deco-triangle"></span><span class="section-deco-line" style="background:linear-gradient(90deg,transparent,var(--violeta-20))"></span></div>
         </div>
 
         <div class="field-group">
-          <label class="field-label" for="duvidas">Tem alguma duvida, preocupacao ou algo que gostaria de compartilhar?</label>
-          <textarea class="field-textarea" id="duvidas" name="duvidas" placeholder="Fique a vontade para escrever qualquer observacao, expectativa, receio ou informacao adicional que considere importante."></textarea>
+          <label class="field-label" for="duvidas">Tem alguma dúvida, preocupação ou algo que gostaria de compartilhar?</label>
+          <textarea class="field-textarea" id="duvidas" name="duvidas" placeholder="Fique à vontade para escrever qualquer observação, expectativa, receio ou informação adicional que considere importante."></textarea>
         </div>
 
         <div class="field-group">
-          <label class="field-label">Como voce conheceu meu trabalho?</label>
+          <label class="field-label">Como você conheceu meu trabalho?</label>
           <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="como_conheceu" value="Indicacao de alguem"> Indicacao de alguem</label>
+            <label class="radio-option"><input type="radio" name="como_conheceu" value="Indicação de alguém"> Indicação de alguém</label>
             <label class="radio-option"><input type="radio" name="como_conheceu" value="Instagram"> Instagram</label>
             <label class="radio-option"><input type="radio" name="como_conheceu" value="LinkedIn"> LinkedIn</label>
             <label class="radio-option"><input type="radio" name="como_conheceu" value="Google"> Google</label>
-            <label class="radio-option"><input type="radio" name="como_conheceu" value="Ja nos conhecemos pessoalmente"> Ja nos conhecemos pessoalmente</label>
+            <label class="radio-option"><input type="radio" name="como_conheceu" value="Já nos conhecemos pessoalmente"> Já nos conhecemos pessoalmente</label>
             <label class="radio-option"><input type="radio" name="como_conheceu" value="Outro"> Outro</label>
           </div>
         </div>
 
         <div class="field-group">
           <label class="field-label">Anexar arquivos (opcional)</label>
-          <p class="field-hint">Envie seu logotipo, imagens de referencia ou qualquer documento relevante. Maximo 5 arquivos, 5 MB cada.</p>
+          <p class="field-hint">Envie seu logotipo, imagens de referência ou qualquer documento relevante. Máximo 5 arquivos, 5 MB cada.</p>
           <div class="file-upload-area" id="fileUploadArea">
             <input type="file" id="fileInput" multiple accept="image/*,.pdf,.doc,.docx,.ai,.psd,.svg">
             <div class="file-upload-icon">
@@ -1580,17 +1581,17 @@ body {
     <h2 class="success-title">Respostas prontas!</h2>
     <p class="success-text">
       Seu briefing foi enviado com sucesso. Em breve entrarei em contato para
-      iniciar o diagnostico do seu negocio.
+      iniciar o diagnóstico do seu negócio.
     </p>
     <div class="success-actions">
-      <a href="https://wa.me/5531992836383?text=Oi%20Thais!%20Acabei%20de%20enviar%20meu%20briefing%20de%20diagnostico%20digital." class="btn-whatsapp" target="_blank" rel="noopener">
+      <a href="https://wa.me/5531992836383?text=Oi%20Thais!%20Acabei%20de%20enviar%20meu%20briefing%20de%20diagn%C3%B3stico%20digital." class="btn-whatsapp" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         Falar no WhatsApp
       </a>
       <button class="btn-copy-link" onclick="copyFormData()">Copiar respostas</button>
     </div>
     <div class="success-footer">
-      <p><span class="brand">Thais Azevedo</span> &middot; Marketing, conteudo e posicionamento digital</p>
+      <p><span class="brand">Thais Azevedo</span> &middot; Marketing, conteúdo e posicionamento digital</p>
     </div>
   </div>
 </section>
@@ -1606,18 +1607,18 @@ body {
 <!-- ====== SCRIPTS ====== -->
 <script>
 /* ===============================================
-   CONFIGURACAO
+   CONFIGURAÇÃO
    ===============================================
    Para ativar o envio por e-mail, crie uma conta
    gratuita em https://www.emailjs.com e preencha
-   os dados abaixo. Enquanto nao configurar, o
-   formulario enviara via WhatsApp.
+   os dados abaixo. Enquanto não configurar, o
+   formulário enviará via WhatsApp.
    =============================================== */
 const CONFIG = {
   whatsapp: '5531992836383',
   email: 'azevedothayss@gmail.com',
   nome: 'Thais Azevedo',
-  /* EmailJS - preencha apos criar sua conta */
+  /* EmailJS - preencha após criar sua conta */
   emailjs_public_key: '',
   emailjs_service_id: '',
   emailjs_template_id: '',
@@ -1703,7 +1704,7 @@ function validateStep(step) {
   if (!valid) {
     const first = stepEl.querySelector('.field-error');
     if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    showToast('Preencha os campos obrigatorios.');
+    showToast('Preencha os campos obrigatórios.');
   }
   return valid;
 }
@@ -1769,7 +1770,7 @@ function handleFiles(files) {
   const maxSize = 5 * 1024 * 1024; /* 5MB */
   for (const file of files) {
     if (uploadedFiles.length >= maxFiles) {
-      showToast('Maximo de 5 arquivos permitido.');
+      showToast('Máximo de 5 arquivos permitido.');
       break;
     }
     if (file.size > maxSize) {
@@ -1945,48 +1946,48 @@ function collectFormData() {
 function formatFormText(data) {
   const labels = {
     nome: 'Nome completo',
-    negocio: 'Nome do negocio',
-    area: 'Area de atuacao',
-    area_outro: 'Area (outro)',
-    descricao: 'Descricao dos servicos',
+    negocio: 'Nome do negócio',
+    area: 'Área de atuação',
+    area_outro: 'Área (outro)',
+    descricao: 'Descrição dos serviços',
     tempo_mercado: 'Tempo de mercado',
-    cidade: 'Cidade / Regiao',
+    cidade: 'Cidade / Região',
     atendimento: 'Tipo de atendimento',
     cnpj: 'CNPJ / MEI',
-    razao_social: 'Razao social',
-    formacao: 'Formacao academica',
-    cursos: 'Cursos e certificacoes',
+    razao_social: 'Razão social',
+    formacao: 'Formação acadêmica',
+    cursos: 'Cursos e certificações',
     redes: 'Redes sociais',
     instagram: 'Instagram',
-    frequencia: 'Frequencia de publicacao',
+    frequencia: 'Frequência de publicação',
     site: 'Possui site',
     site_url: 'Link do site',
-    google_negocio: 'Google Meu Negocio',
+    google_negocio: 'Google Meu Negócio',
     whatsapp_business: 'WhatsApp Business',
-    trafego: 'Trafego pago',
+    trafego: 'Tráfego pago',
     cliente_ideal: 'Cliente ideal',
     concorrentes: 'Concorrentes',
     diferenciais: 'Diferenciais',
     logotipo: 'Logotipo',
     cores_marca: 'Cores da marca',
-    referencias_visuais: 'Referencias visuais',
-    sensacao: 'Sensacao desejada',
-    motivacao: 'Motivacao',
+    referencias_visuais: 'Referências visuais',
+    sensacao: 'Sensação desejada',
+    motivacao: 'Motivação',
     objetivos: 'Objetivos',
     prazo: 'Prazo esperado',
-    experiencia_anterior: 'Experiencia anterior',
+    experiencia_anterior: 'Experiência anterior',
     investimento: 'Faixa de investimento',
-    reunioes: 'Disponibilidade reunioes',
-    gravacao: 'Disponibilidade gravacao',
-    horario_contato: 'Melhor horario',
+    reunioes: 'Disponibilidade reuniões',
+    gravacao: 'Disponibilidade gravação',
+    horario_contato: 'Melhor horário',
     telefone: 'Telefone / WhatsApp',
     email: 'E-mail',
-    duvidas: 'Duvidas / Observacoes',
+    duvidas: 'Dúvidas / Observações',
     como_conheceu: 'Como conheceu'
   };
 
-  let text = '== BRIEFING DE DIAGNOSTICO DIGITAL ==\n';
-  text += `Enviado em: ${new Date().toLocaleDateString('pt-BR')} as ${new Date().toLocaleTimeString('pt-BR')}\n\n`;
+  let text = '== BRIEFING DE DIAGNÓSTICO DIGITAL ==\n';
+  text += `Enviado em: ${new Date().toLocaleDateString('pt-BR')} às ${new Date().toLocaleTimeString('pt-BR')}\n\n`;
 
   Object.keys(data).forEach(key => {
     const label = labels[key] || key;
@@ -2002,7 +2003,7 @@ async function sendViaEmailJS(data) {
     to_email: CONFIG.email,
     from_name: data.nome || 'Cliente',
     from_email: data.email || '',
-    subject: `Briefing de Diagnostico Digital - ${data.nome || 'Novo cliente'}`,
+    subject: `Briefing de Diagnóstico Digital - ${data.nome || 'Novo cliente'}`,
     message: text
   };
 
