@@ -1098,6 +1098,19 @@ body {
         </div>
 
         <div class="field-group">
+          <label class="field-label" for="emailContato">E-mail <span class="required">*</span></label>
+          <p class="field-hint">Necessário para enviarmos a confirmação do seu briefing.</p>
+          <input class="field-input" type="email" id="emailContato" name="email" placeholder="seu@email.com" required>
+          <div class="field-error-msg">Por favor, informe seu e-mail.</div>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="telefone">Telefone ou WhatsApp <span class="required">*</span></label>
+          <input class="field-input" type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+          <div class="field-error-msg">Por favor, informe seu telefone.</div>
+        </div>
+
+        <div class="field-group">
           <label class="field-label" for="negocio">Nome do seu negócio ou marca</label>
           <p class="field-hint">Se ainda não tem, pode deixar em branco.</p>
           <input class="field-input" type="text" id="negocio" name="negocio" placeholder="Clínica Sorriso, Studio Ana">
@@ -1495,17 +1508,6 @@ body {
           <input class="field-input" type="text" id="horario" name="horario_contato" placeholder="De manhã, antes das 10h / À noite, após 19h">
         </div>
 
-        <div class="field-group">
-          <label class="field-label" for="telefone">Telefone ou WhatsApp para contato</label>
-          <input class="field-input" type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
-        </div>
-
-        <div class="field-group">
-          <label class="field-label" for="emailContato">E-mail <span class="required">*</span></label>
-          <p class="field-hint">Necessário para enviarmos a confirmação do seu briefing.</p>
-          <input class="field-input" type="email" id="emailContato" name="email" placeholder="seu@email.com" required>
-          <div class="field-error-msg">Por favor, informe seu e-mail para receber a confirmação.</div>
-        </div>
 
         <div class="step-nav">
           <button type="button" class="btn btn-back" onclick="prevStep()">
